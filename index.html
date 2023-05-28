@@ -6,19 +6,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>MaWi - kurs tworzenia aplikacji internetowych</title>
     <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Nunito+Sans:wght@200;600&family=Source+Sans+Pro:wght@200;600&display=swap"
+      rel="stylesheet"
+    />
   </head>
 
   <body>
     <nav>
       <a href="./">MaWi</a>
       <ul class="navUL">
-        <li><a href="#">Start</a></li>
-        <li><a href="#">Misja i wizja</a></li>
-        <li><a href="#">Kontakt</a></li>
+        <li><a href="#start">Start</a></li>
+        <li><a href="#mission">Misja i wizja</a></li>
+        <li><a href="#contact">Kontakt</a></li>
       </ul>
     </nav>
 
-    <header>
+    <header id="start" class="bodyHeader">
       <h1>Kurs programowania aplikacji internetowych</h1>
       <p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi unde
@@ -29,7 +35,7 @@
       <img src="./img/coding.jpg" alt="Laptop i kod" width="600px" />
     </header>
 
-    <main>
+    <main id="mission">
       <header>
         <h2>Misja i wizja</h2>
         <p>
@@ -68,7 +74,7 @@
       </section>
     </main>
 
-    <article>
+    <article id="contact">
       <header>
         <h2>Skontaktuj się z nami</h2>
         <p>Lorem ipsum dolor sit amet.</p>
